@@ -1,0 +1,121 @@
+const { convert, readAppGlobalState, readAppLocalState } = require("@algo-builder/algob");
+const { types } = require("@algo-builder/web");
+
+async function run(runtimeEnv, deployer) {
+	const master = deployer.accountsByName.get("master");
+	const advisors_address = deployer.accountsByName.get("advisors");
+	const private_investor_address = deployer.accountsByName.get("private_investors");
+	const company_reserve = deployer.accountsByName.get("company_reserves");
+	const team_address = deployer.accountsByName.get("team");
+
+	// get app info
+	const mintApp = deployer.getApp('mintApp');
+	console.log(mintApp);
+	const mintAppID = mintApp.appID;
+	const mintAppAddr = mintApp.applicationAccount;
+
+	const vestApp = deployer.getApp('vestApp');
+	const vestAppID = vestApp.appID;
+	const vestAppAddr = vestApp.applicationAccount;
+	let globalState = await readAppGlobalState(deployer, master.addr, vestAppID);
+	console.log(globalState);
+	const assetID = globalState.get("assetID");
+
+
+	// fund contract account
+	await deployer.executeTx({
+		type: types.TransactionType.TransferAlgo,
+		sign: types.SignType.SecretKey,
+		fromAccount: master,
+		toAccountAddr: vestAppAddr,
+		amountMicroAlgos: 2e7, //20 algos
+		payFlags: { totalFee: 1000 },
+	});
+
+	// optin
+	await deployer.executeTx({
+		type: types.TransactionType.CallApp,
+		sign: types.SignType.SecretKey,
+		fromAccount: master,
+		appID: vestAppID,
+		payFlags: { totalFee: 1000 },
+		foreignAssets: [assetID],
+		appArgs: ["asset_optIn"].map(convert.stringToBytes),
+	});
+
+	// app call to transfer
+	await deployer.executeTx({
+		type: types.TransactionType.CallApp,
+		sign: types.SignType.SecretKey,
+		fromAccount: master,
+		appID: mintAppID,
+		payFlags: { totalFee: 1000 },
+		accounts: [vestAppAddr],
+		foreignAssets: [assetID],
+		appArgs: [convert.stringToBytes("transferToVend")],
+	});
+
+	// callApp to store get_time in global state
+	await deployer.executeTx({
+		type: types.TransactionType.CallApp,
+		sign: types.SignType.SecretKey,
+		fromAccount: master,
+		appID: vestAppID,
+		payFlags: { totalFee: 1000 },
+		appArgs: [convert.stringToBytes("get_time"), convert.uint64ToBigEndian(vestApp.timestamp)],
+	});
+
+	// callApp to store balance in local state
+	await deployer.executeTx({
+		type: types.TransactionType.CallApp,
+		sign: types.SignType.SecretKey,
+		fromAccount: advisors_address,
+		appID: vestAppID,
+		payFlags: { totalFee: 1000 },
+		appArgs: [convert.stringToBytes("get_balance"), convert.uint64ToBigEndian(10000000)],
+	});
+
+    await deployer.executeTx({
+		type: types.TransactionType.CallApp,
+		sign: types.SignType.SecretKey,
+		fromAccount: private_investor_address,
+		appID: vestAppID,
+		payFlags: { totalFee: 1000 },
+		appArgs: [convert.stringToBytes("get_balance"), convert.uint64ToBigEndian(20000000)],
+	});
+
+	await deployer.executeTx({
+		type: types.TransactionType.CallApp,
+		sign: types.SignType.SecretKey,
+		fromAccount: company_reserve,
+		appID: vestAppID,
+		payFlags: { totalFee: 1000 },
+		appArgs: [convert.stringToBytes("get_balance"), convert.uint64ToBigEndian(30000000)],
+	});
+	
+	await deployer.executeTx({
+		type: types.TransactionType.CallApp,
+		sign: types.SignType.SecretKey,
+		fromAccount: team_address,
+		appID: vestAppID,
+		payFlags: { totalFee: 1000 },
+		appArgs: [convert.stringToBytes("get_balance"), convert.uint64ToBigEndian(15000000)],
+	});
+
+	globalState = await readAppGlobalState(deployer, master.addr, vestAppID);
+	console.log(globalState);
+	let globalStateVest = await readAppGlobalState(deployer, master.addr, vestAppID);
+	console.log(globalStateVest);
+	// get stakeholders' state
+	let advisorsState = await readAppLocalState(deployer, advisors_address.addr, vestAppID);
+	console.log(advisorsState);
+	let privateInvestorsState = await readAppLocalState(deployer, private_investor_address.addr, vestAppID);
+	console.log(privateInvestorsState);
+	let companyReserveState = await readAppLocalState(deployer, company_reserve.addr, vestAppID);
+	console.log(companyReserveState);
+	let teamState = await readAppLocalState(deployer, team_address.addr, vestAppID);
+	console.log(teamState);
+
+}
+
+module.exports = { default: run };

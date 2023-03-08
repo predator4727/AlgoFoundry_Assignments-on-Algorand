@@ -1,0 +1,296 @@
+filename: burn_approval.py
+timestamp: 1678124354
+compiled: BiADAAEEJgEHYXNzZXRJRDEYIhJAAIYxGSMSQAB9MRmBAhJAAHMxGSQSQABqMRmBBRJAAGAxGSISQAABADEgMgMSMQkyAxIQMRUyAxIQRDYaAIAQYXNzZXRfb3B0SW5fYnVybhJAAAEAMSAyAxIxCTIDEhAxFTIDEhBEKGQ2MAASRLEkshAyCrIUIrISNjAAshGzI0MiQyJDI0MiQzEgMgMSMQkyAxIQMRUyAxIQRCg2GgAXZyND
+compiledHash: W5KRZY6FZVYQTJP7ZGUX2N4NJNHR2A2TEJOSVSLL4QTCGZ7M2WXMMMGD3I
+srcHash: 3932617395
+base64ToBytes:
+    - 6
+    - 32
+    - 3
+    - 0
+    - 1
+    - 4
+    - 38
+    - 1
+    - 7
+    - 97
+    - 115
+    - 115
+    - 101
+    - 116
+    - 73
+    - 68
+    - 49
+    - 24
+    - 34
+    - 18
+    - 64
+    - 0
+    - 134
+    - 49
+    - 25
+    - 35
+    - 18
+    - 64
+    - 0
+    - 125
+    - 49
+    - 25
+    - 129
+    - 2
+    - 18
+    - 64
+    - 0
+    - 115
+    - 49
+    - 25
+    - 36
+    - 18
+    - 64
+    - 0
+    - 106
+    - 49
+    - 25
+    - 129
+    - 5
+    - 18
+    - 64
+    - 0
+    - 96
+    - 49
+    - 25
+    - 34
+    - 18
+    - 64
+    - 0
+    - 1
+    - 0
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 54
+    - 26
+    - 0
+    - 128
+    - 16
+    - 97
+    - 115
+    - 115
+    - 101
+    - 116
+    - 95
+    - 111
+    - 112
+    - 116
+    - 73
+    - 110
+    - 95
+    - 98
+    - 117
+    - 114
+    - 110
+    - 18
+    - 64
+    - 0
+    - 1
+    - 0
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 40
+    - 100
+    - 54
+    - 48
+    - 0
+    - 18
+    - 68
+    - 177
+    - 36
+    - 178
+    - 16
+    - 50
+    - 10
+    - 178
+    - 20
+    - 34
+    - 178
+    - 18
+    - 54
+    - 48
+    - 0
+    - 178
+    - 17
+    - 179
+    - 35
+    - 67
+    - 34
+    - 67
+    - 34
+    - 67
+    - 35
+    - 67
+    - 34
+    - 67
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 40
+    - 54
+    - 26
+    - 0
+    - 23
+    - 103
+    - 35
+    - 67
+tealCode: |
+    #pragma version 6
+    txn ApplicationID
+    int 0
+    ==
+    bnz main_l14
+    txn OnCompletion
+    int OptIn
+    ==
+    bnz main_l13
+    txn OnCompletion
+    int CloseOut
+    ==
+    bnz main_l12
+    txn OnCompletion
+    int UpdateApplication
+    ==
+    bnz main_l11
+    txn OnCompletion
+    int DeleteApplication
+    ==
+    bnz main_l10
+    txn OnCompletion
+    int NoOp
+    ==
+    bnz main_l7
+    err
+    main_l7:
+    txn RekeyTo
+    global ZeroAddress
+    ==
+    txn CloseRemainderTo
+    global ZeroAddress
+    ==
+    &&
+    txn AssetCloseTo
+    global ZeroAddress
+    ==
+    &&
+    assert
+    txna ApplicationArgs 0
+    byte "asset_optIn_burn"
+    ==
+    bnz main_l9
+    err
+    main_l9:
+    txn RekeyTo
+    global ZeroAddress
+    ==
+    txn CloseRemainderTo
+    global ZeroAddress
+    ==
+    &&
+    txn AssetCloseTo
+    global ZeroAddress
+    ==
+    &&
+    assert
+    byte "assetID"
+    app_global_get
+    txna Assets 0
+    ==
+    assert
+    itxn_begin
+    int axfer
+    itxn_field TypeEnum
+    global CurrentApplicationAddress
+    itxn_field AssetReceiver
+    int 0
+    itxn_field AssetAmount
+    txna Assets 0
+    itxn_field XferAsset
+    itxn_submit
+    int 1
+    return
+    main_l10:
+    int 0
+    return
+    main_l11:
+    int 0
+    return
+    main_l12:
+    int 1
+    return
+    main_l13:
+    int 0
+    return
+    main_l14:
+    txn RekeyTo
+    global ZeroAddress
+    ==
+    txn CloseRemainderTo
+    global ZeroAddress
+    ==
+    &&
+    txn AssetCloseTo
+    global ZeroAddress
+    ==
+    &&
+    assert
+    byte "assetID"
+    txna ApplicationArgs 0
+    btoi
+    app_global_put
+    int 1
+    return
+scParams: {}

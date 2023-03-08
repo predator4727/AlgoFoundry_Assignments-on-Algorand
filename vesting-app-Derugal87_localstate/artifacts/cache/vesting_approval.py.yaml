@@ -1,0 +1,2112 @@
+filename: vesting_approval.py
+timestamp: 1676543864
+compiled: BiAJAQCAmp4BGAQCgOeEDwYMJgkIZ2V0X3RpbWUHYmFsYW5jZQ93aXRoZHJhd19hbW91bnQIYWR2aXNvcnMRcHJpdmF0ZV9pbnZlc3RvcnMPY29tcGFueV9yZXNlcnZlBHRlYW0HYXNzZXRJRAh3aXRoZHJhdzEYIxJABHExGSISQAQwMRkhBRJABCYxGSEEEkAEHDEZgQUSQAQSMRkjEkAAAQAxIDIDEjEJMgMSEDEVMgMSEEQ2GgCAC2Fzc2V0X29wdEluEkADtjYaACgSQAOmNhoAgAtnZXRfYmFsYW5jZRJAA1s2GgAnCBJAAAEAMSAyAxIxCTIDEhAxFTIDEhBEMQArZBIxACcEZBIRMQAnBWQSETEAJwZkEhFEMQArZBJAAlIxACcEZBJAAX8xACcFZBJAANYxACcGZBJAAAEAMgcoZCEGCA1AAAQjQyJDMQArZBIxACcEZBIRMQAnBWQSETEAJwZkEhFEMgcoZAkkCiEIDUAAAiNDMgQhBRJEMwAQIhJEMwEQIQcSRCcHZDcBMAASRDcBGgEXIw1ENwEaARcyByhkCSQKJQ1AAFIxACliMgcoZAkkCiIJJQoLMQAqYgkORLEhBLIQMwEAshQ3ARoBF7ISNwEwALIRszMBACozAQAqYjcBGgEXCGYzAQApMwEAKWIzAQAnCGIJZiJDMQApYjEAKmIJQv+3MgcoZCEGCA1AAAIjQzIEIQUSRDMAECISRDMBECEHEkQnB2Q3ATAAEkQ3ARoBFyMNRDcBGgEXMgcoZAkkCiUNQABSMQApYjIHKGQJJAoiCSUKCzEAKmIJDkSxIQSyEDMBALIUNwEaAReyEjcBMACyEbMzAQAqMwEAKmI3ARoBFwhmMwEAKTMBACliMwEAJwhiCWYiQzEAKWIxACpiCUL/tzIHKGQhBggNQAACI0MxACtkEjEAJwRkEhExACcFZBIRMQAnBmQSEUQyByhkCSQKIQgNQAACI0MyBCEFEkQzABAiEkQzARAhBxJEJwdkNwEwABJENwEaARcjDUQ3ARoBFzIHKGQJJAolDUAAUjEAKWIyByhkCSQKIgklCgsxACpiCQ5EsSEEshAzAQCyFDcBGgEXshI3ATAAshGzMwEAKjMBACpiNwEaARcIZjMBACkzAQApYjMBACcIYglmIkMxACliMQAqYglC/7cyByhkIQYIDUAAAiNDMQArZBIxACcEZBIRMQAnBWQSETEAJwZkEhFEMgcoZAkkCiEIDUAAAiNDMgQhBRJEMwAQIhJEMwEQIQcSRCcHZDcBMAASRDcBGgEXIw1ENwEaARcyByhkCSQKJQ1AAFIxACliMgcoZAkkCiIJJQoLMQAqYgkORLEhBLIQMwEAshQ3ARoBF7ISNwEwALIRszMBACozAQAqYjcBGgEXCGYzAQApMwEAKWIzAQAnCGIJZiJDMQApYjEAKmIJQv+3MSAyAxIxCTIDEhAxFTIDEhBEMQArZBIxACcEZBIRMQAnBWQSETEAJwZkEhFEMQApNhoBF2YiQyg2GgEXZyJDMSAyAxIxCTIDEhAxFTIDEhBEJwdkNjAAEkSxIQSyEDIKshQjshI2MACyEbMiQyNDI0MiQzEgMgMSMQkyAxIQMRUyAxIQRDEAMRhhRDEAK2QSMQAnBGQSETEAJwVkEhExACcGZBIRRDEAKiNmIkMxIDIDEjEJMgMSEDEVMgMSEEQrNhwBZycENhwCZycFNhwDZycGNhwEZycHNhoAF2ciQw==
+compiledHash: DEY6747JZZWBLPPGGAKFK3HBCC2K5NC4Z3QK6EDDIE4TIOE7F2SCBTM5SY
+srcHash: 4266135471
+base64ToBytes:
+    - 6
+    - 32
+    - 9
+    - 1
+    - 0
+    - 128
+    - 154
+    - 158
+    - 1
+    - 24
+    - 4
+    - 2
+    - 128
+    - 231
+    - 132
+    - 15
+    - 6
+    - 12
+    - 38
+    - 9
+    - 8
+    - 103
+    - 101
+    - 116
+    - 95
+    - 116
+    - 105
+    - 109
+    - 101
+    - 7
+    - 98
+    - 97
+    - 108
+    - 97
+    - 110
+    - 99
+    - 101
+    - 15
+    - 119
+    - 105
+    - 116
+    - 104
+    - 100
+    - 114
+    - 97
+    - 119
+    - 95
+    - 97
+    - 109
+    - 111
+    - 117
+    - 110
+    - 116
+    - 8
+    - 97
+    - 100
+    - 118
+    - 105
+    - 115
+    - 111
+    - 114
+    - 115
+    - 17
+    - 112
+    - 114
+    - 105
+    - 118
+    - 97
+    - 116
+    - 101
+    - 95
+    - 105
+    - 110
+    - 118
+    - 101
+    - 115
+    - 116
+    - 111
+    - 114
+    - 115
+    - 15
+    - 99
+    - 111
+    - 109
+    - 112
+    - 97
+    - 110
+    - 121
+    - 95
+    - 114
+    - 101
+    - 115
+    - 101
+    - 114
+    - 118
+    - 101
+    - 4
+    - 116
+    - 101
+    - 97
+    - 109
+    - 7
+    - 97
+    - 115
+    - 115
+    - 101
+    - 116
+    - 73
+    - 68
+    - 8
+    - 119
+    - 105
+    - 116
+    - 104
+    - 100
+    - 114
+    - 97
+    - 119
+    - 49
+    - 24
+    - 35
+    - 18
+    - 64
+    - 4
+    - 113
+    - 49
+    - 25
+    - 34
+    - 18
+    - 64
+    - 4
+    - 48
+    - 49
+    - 25
+    - 33
+    - 5
+    - 18
+    - 64
+    - 4
+    - 38
+    - 49
+    - 25
+    - 33
+    - 4
+    - 18
+    - 64
+    - 4
+    - 28
+    - 49
+    - 25
+    - 129
+    - 5
+    - 18
+    - 64
+    - 4
+    - 18
+    - 49
+    - 25
+    - 35
+    - 18
+    - 64
+    - 0
+    - 1
+    - 0
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 54
+    - 26
+    - 0
+    - 128
+    - 11
+    - 97
+    - 115
+    - 115
+    - 101
+    - 116
+    - 95
+    - 111
+    - 112
+    - 116
+    - 73
+    - 110
+    - 18
+    - 64
+    - 3
+    - 182
+    - 54
+    - 26
+    - 0
+    - 40
+    - 18
+    - 64
+    - 3
+    - 166
+    - 54
+    - 26
+    - 0
+    - 128
+    - 11
+    - 103
+    - 101
+    - 116
+    - 95
+    - 98
+    - 97
+    - 108
+    - 97
+    - 110
+    - 99
+    - 101
+    - 18
+    - 64
+    - 3
+    - 91
+    - 54
+    - 26
+    - 0
+    - 39
+    - 8
+    - 18
+    - 64
+    - 0
+    - 1
+    - 0
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 49
+    - 0
+    - 43
+    - 100
+    - 18
+    - 49
+    - 0
+    - 39
+    - 4
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 5
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 6
+    - 100
+    - 18
+    - 17
+    - 68
+    - 49
+    - 0
+    - 43
+    - 100
+    - 18
+    - 64
+    - 2
+    - 82
+    - 49
+    - 0
+    - 39
+    - 4
+    - 100
+    - 18
+    - 64
+    - 1
+    - 127
+    - 49
+    - 0
+    - 39
+    - 5
+    - 100
+    - 18
+    - 64
+    - 0
+    - 214
+    - 49
+    - 0
+    - 39
+    - 6
+    - 100
+    - 18
+    - 64
+    - 0
+    - 1
+    - 0
+    - 50
+    - 7
+    - 40
+    - 100
+    - 33
+    - 6
+    - 8
+    - 13
+    - 64
+    - 0
+    - 4
+    - 35
+    - 67
+    - 34
+    - 67
+    - 49
+    - 0
+    - 43
+    - 100
+    - 18
+    - 49
+    - 0
+    - 39
+    - 4
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 5
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 6
+    - 100
+    - 18
+    - 17
+    - 68
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 33
+    - 8
+    - 13
+    - 64
+    - 0
+    - 2
+    - 35
+    - 67
+    - 50
+    - 4
+    - 33
+    - 5
+    - 18
+    - 68
+    - 51
+    - 0
+    - 16
+    - 34
+    - 18
+    - 68
+    - 51
+    - 1
+    - 16
+    - 33
+    - 7
+    - 18
+    - 68
+    - 39
+    - 7
+    - 100
+    - 55
+    - 1
+    - 48
+    - 0
+    - 18
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 35
+    - 13
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 37
+    - 13
+    - 64
+    - 0
+    - 82
+    - 49
+    - 0
+    - 41
+    - 98
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 34
+    - 9
+    - 37
+    - 10
+    - 11
+    - 49
+    - 0
+    - 42
+    - 98
+    - 9
+    - 14
+    - 68
+    - 177
+    - 33
+    - 4
+    - 178
+    - 16
+    - 51
+    - 1
+    - 0
+    - 178
+    - 20
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 178
+    - 18
+    - 55
+    - 1
+    - 48
+    - 0
+    - 178
+    - 17
+    - 179
+    - 51
+    - 1
+    - 0
+    - 42
+    - 51
+    - 1
+    - 0
+    - 42
+    - 98
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 8
+    - 102
+    - 51
+    - 1
+    - 0
+    - 41
+    - 51
+    - 1
+    - 0
+    - 41
+    - 98
+    - 51
+    - 1
+    - 0
+    - 39
+    - 8
+    - 98
+    - 9
+    - 102
+    - 34
+    - 67
+    - 49
+    - 0
+    - 41
+    - 98
+    - 49
+    - 0
+    - 42
+    - 98
+    - 9
+    - 66
+    - 255
+    - 183
+    - 50
+    - 7
+    - 40
+    - 100
+    - 33
+    - 6
+    - 8
+    - 13
+    - 64
+    - 0
+    - 2
+    - 35
+    - 67
+    - 50
+    - 4
+    - 33
+    - 5
+    - 18
+    - 68
+    - 51
+    - 0
+    - 16
+    - 34
+    - 18
+    - 68
+    - 51
+    - 1
+    - 16
+    - 33
+    - 7
+    - 18
+    - 68
+    - 39
+    - 7
+    - 100
+    - 55
+    - 1
+    - 48
+    - 0
+    - 18
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 35
+    - 13
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 37
+    - 13
+    - 64
+    - 0
+    - 82
+    - 49
+    - 0
+    - 41
+    - 98
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 34
+    - 9
+    - 37
+    - 10
+    - 11
+    - 49
+    - 0
+    - 42
+    - 98
+    - 9
+    - 14
+    - 68
+    - 177
+    - 33
+    - 4
+    - 178
+    - 16
+    - 51
+    - 1
+    - 0
+    - 178
+    - 20
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 178
+    - 18
+    - 55
+    - 1
+    - 48
+    - 0
+    - 178
+    - 17
+    - 179
+    - 51
+    - 1
+    - 0
+    - 42
+    - 51
+    - 1
+    - 0
+    - 42
+    - 98
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 8
+    - 102
+    - 51
+    - 1
+    - 0
+    - 41
+    - 51
+    - 1
+    - 0
+    - 41
+    - 98
+    - 51
+    - 1
+    - 0
+    - 39
+    - 8
+    - 98
+    - 9
+    - 102
+    - 34
+    - 67
+    - 49
+    - 0
+    - 41
+    - 98
+    - 49
+    - 0
+    - 42
+    - 98
+    - 9
+    - 66
+    - 255
+    - 183
+    - 50
+    - 7
+    - 40
+    - 100
+    - 33
+    - 6
+    - 8
+    - 13
+    - 64
+    - 0
+    - 2
+    - 35
+    - 67
+    - 49
+    - 0
+    - 43
+    - 100
+    - 18
+    - 49
+    - 0
+    - 39
+    - 4
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 5
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 6
+    - 100
+    - 18
+    - 17
+    - 68
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 33
+    - 8
+    - 13
+    - 64
+    - 0
+    - 2
+    - 35
+    - 67
+    - 50
+    - 4
+    - 33
+    - 5
+    - 18
+    - 68
+    - 51
+    - 0
+    - 16
+    - 34
+    - 18
+    - 68
+    - 51
+    - 1
+    - 16
+    - 33
+    - 7
+    - 18
+    - 68
+    - 39
+    - 7
+    - 100
+    - 55
+    - 1
+    - 48
+    - 0
+    - 18
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 35
+    - 13
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 37
+    - 13
+    - 64
+    - 0
+    - 82
+    - 49
+    - 0
+    - 41
+    - 98
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 34
+    - 9
+    - 37
+    - 10
+    - 11
+    - 49
+    - 0
+    - 42
+    - 98
+    - 9
+    - 14
+    - 68
+    - 177
+    - 33
+    - 4
+    - 178
+    - 16
+    - 51
+    - 1
+    - 0
+    - 178
+    - 20
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 178
+    - 18
+    - 55
+    - 1
+    - 48
+    - 0
+    - 178
+    - 17
+    - 179
+    - 51
+    - 1
+    - 0
+    - 42
+    - 51
+    - 1
+    - 0
+    - 42
+    - 98
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 8
+    - 102
+    - 51
+    - 1
+    - 0
+    - 41
+    - 51
+    - 1
+    - 0
+    - 41
+    - 98
+    - 51
+    - 1
+    - 0
+    - 39
+    - 8
+    - 98
+    - 9
+    - 102
+    - 34
+    - 67
+    - 49
+    - 0
+    - 41
+    - 98
+    - 49
+    - 0
+    - 42
+    - 98
+    - 9
+    - 66
+    - 255
+    - 183
+    - 50
+    - 7
+    - 40
+    - 100
+    - 33
+    - 6
+    - 8
+    - 13
+    - 64
+    - 0
+    - 2
+    - 35
+    - 67
+    - 49
+    - 0
+    - 43
+    - 100
+    - 18
+    - 49
+    - 0
+    - 39
+    - 4
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 5
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 6
+    - 100
+    - 18
+    - 17
+    - 68
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 33
+    - 8
+    - 13
+    - 64
+    - 0
+    - 2
+    - 35
+    - 67
+    - 50
+    - 4
+    - 33
+    - 5
+    - 18
+    - 68
+    - 51
+    - 0
+    - 16
+    - 34
+    - 18
+    - 68
+    - 51
+    - 1
+    - 16
+    - 33
+    - 7
+    - 18
+    - 68
+    - 39
+    - 7
+    - 100
+    - 55
+    - 1
+    - 48
+    - 0
+    - 18
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 35
+    - 13
+    - 68
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 37
+    - 13
+    - 64
+    - 0
+    - 82
+    - 49
+    - 0
+    - 41
+    - 98
+    - 50
+    - 7
+    - 40
+    - 100
+    - 9
+    - 36
+    - 10
+    - 34
+    - 9
+    - 37
+    - 10
+    - 11
+    - 49
+    - 0
+    - 42
+    - 98
+    - 9
+    - 14
+    - 68
+    - 177
+    - 33
+    - 4
+    - 178
+    - 16
+    - 51
+    - 1
+    - 0
+    - 178
+    - 20
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 178
+    - 18
+    - 55
+    - 1
+    - 48
+    - 0
+    - 178
+    - 17
+    - 179
+    - 51
+    - 1
+    - 0
+    - 42
+    - 51
+    - 1
+    - 0
+    - 42
+    - 98
+    - 55
+    - 1
+    - 26
+    - 1
+    - 23
+    - 8
+    - 102
+    - 51
+    - 1
+    - 0
+    - 41
+    - 51
+    - 1
+    - 0
+    - 41
+    - 98
+    - 51
+    - 1
+    - 0
+    - 39
+    - 8
+    - 98
+    - 9
+    - 102
+    - 34
+    - 67
+    - 49
+    - 0
+    - 41
+    - 98
+    - 49
+    - 0
+    - 42
+    - 98
+    - 9
+    - 66
+    - 255
+    - 183
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 49
+    - 0
+    - 43
+    - 100
+    - 18
+    - 49
+    - 0
+    - 39
+    - 4
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 5
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 6
+    - 100
+    - 18
+    - 17
+    - 68
+    - 49
+    - 0
+    - 41
+    - 54
+    - 26
+    - 1
+    - 23
+    - 102
+    - 34
+    - 67
+    - 40
+    - 54
+    - 26
+    - 1
+    - 23
+    - 103
+    - 34
+    - 67
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 39
+    - 7
+    - 100
+    - 54
+    - 48
+    - 0
+    - 18
+    - 68
+    - 177
+    - 33
+    - 4
+    - 178
+    - 16
+    - 50
+    - 10
+    - 178
+    - 20
+    - 35
+    - 178
+    - 18
+    - 54
+    - 48
+    - 0
+    - 178
+    - 17
+    - 179
+    - 34
+    - 67
+    - 35
+    - 67
+    - 35
+    - 67
+    - 34
+    - 67
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 49
+    - 0
+    - 49
+    - 24
+    - 97
+    - 68
+    - 49
+    - 0
+    - 43
+    - 100
+    - 18
+    - 49
+    - 0
+    - 39
+    - 4
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 5
+    - 100
+    - 18
+    - 17
+    - 49
+    - 0
+    - 39
+    - 6
+    - 100
+    - 18
+    - 17
+    - 68
+    - 49
+    - 0
+    - 42
+    - 35
+    - 102
+    - 34
+    - 67
+    - 49
+    - 32
+    - 50
+    - 3
+    - 18
+    - 49
+    - 9
+    - 50
+    - 3
+    - 18
+    - 16
+    - 49
+    - 21
+    - 50
+    - 3
+    - 18
+    - 16
+    - 68
+    - 43
+    - 54
+    - 28
+    - 1
+    - 103
+    - 39
+    - 4
+    - 54
+    - 28
+    - 2
+    - 103
+    - 39
+    - 5
+    - 54
+    - 28
+    - 3
+    - 103
+    - 39
+    - 6
+    - 54
+    - 28
+    - 4
+    - 103
+    - 39
+    - 7
+    - 54
+    - 26
+    - 0
+    - 23
+    - 103
+    - 34
+    - 67
+tealCode: |
+    #pragma version 6
+    txn ApplicationID
+    int 0
+    ==
+    bnz main_l55
+    txn OnCompletion
+    int OptIn
+    ==
+    bnz main_l54
+    txn OnCompletion
+    int CloseOut
+    ==
+    bnz main_l53
+    txn OnCompletion
+    int UpdateApplication
+    ==
+    bnz main_l52
+    txn OnCompletion
+    int DeleteApplication
+    ==
+    bnz main_l51
+    txn OnCompletion
+    int NoOp
+    ==
+    bnz main_l7
+    err
+    main_l7:
+    txn RekeyTo
+    global ZeroAddress
+    ==
+    txn CloseRemainderTo
+    global ZeroAddress
+    ==
+    &&
+    txn AssetCloseTo
+    global ZeroAddress
+    ==
+    &&
+    assert
+    txna ApplicationArgs 0
+    byte "asset_optIn"
+    ==
+    bnz main_l50
+    txna ApplicationArgs 0
+    byte "get_time"
+    ==
+    bnz main_l49
+    txna ApplicationArgs 0
+    byte "get_balance"
+    ==
+    bnz main_l48
+    txna ApplicationArgs 0
+    byte "withdraw"
+    ==
+    bnz main_l12
+    err
+    main_l12:
+    txn RekeyTo
+    global ZeroAddress
+    ==
+    txn CloseRemainderTo
+    global ZeroAddress
+    ==
+    &&
+    txn AssetCloseTo
+    global ZeroAddress
+    ==
+    &&
+    assert
+    txn Sender
+    byte "advisors"
+    app_global_get
+    ==
+    txn Sender
+    byte "private_investors"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "company_reserve"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "team"
+    app_global_get
+    ==
+    ||
+    assert
+    txn Sender
+    byte "advisors"
+    app_global_get
+    ==
+    bnz main_l40
+    txn Sender
+    byte "private_investors"
+    app_global_get
+    ==
+    bnz main_l32
+    txn Sender
+    byte "company_reserve"
+    app_global_get
+    ==
+    bnz main_l26
+    txn Sender
+    byte "team"
+    app_global_get
+    ==
+    bnz main_l17
+    err
+    main_l17:
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    int 31536000
+    +
+    >
+    bnz main_l20
+    int 0
+    return
+    int 1
+    return
+    main_l20:
+    txn Sender
+    byte "advisors"
+    app_global_get
+    ==
+    txn Sender
+    byte "private_investors"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "company_reserve"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "team"
+    app_global_get
+    ==
+    ||
+    assert
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 12
+    >
+    bnz main_l22
+    int 0
+    return
+    main_l22:
+    global GroupSize
+    int 2
+    ==
+    assert
+    gtxn 0 TypeEnum
+    int pay
+    ==
+    assert
+    gtxn 1 TypeEnum
+    int appl
+    ==
+    assert
+    byte "assetID"
+    app_global_get
+    gtxna 1 Assets 0
+    ==
+    assert
+    gtxna 1 ApplicationArgs 1
+    btoi
+    int 0
+    >
+    assert
+    gtxna 1 ApplicationArgs 1
+    btoi
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 24
+    >
+    bnz main_l25
+    txn Sender
+    byte "balance"
+    app_local_get
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 1
+    -
+    int 24
+    /
+    *
+    txn Sender
+    byte "withdraw_amount"
+    app_local_get
+    -
+    main_l24:
+    <=
+    assert
+    itxn_begin
+    int axfer
+    itxn_field TypeEnum
+    gtxn 1 Sender
+    itxn_field AssetReceiver
+    gtxna 1 ApplicationArgs 1
+    btoi
+    itxn_field AssetAmount
+    gtxna 1 Assets 0
+    itxn_field XferAsset
+    itxn_submit
+    gtxn 1 Sender
+    byte "withdraw_amount"
+    gtxn 1 Sender
+    byte "withdraw_amount"
+    app_local_get
+    gtxna 1 ApplicationArgs 1
+    btoi
+    +
+    app_local_put
+    gtxn 1 Sender
+    byte "balance"
+    gtxn 1 Sender
+    byte "balance"
+    app_local_get
+    gtxn 1 Sender
+    byte "withdraw"
+    app_local_get
+    -
+    app_local_put
+    int 1
+    return
+    main_l25:
+    txn Sender
+    byte "balance"
+    app_local_get
+    txn Sender
+    byte "withdraw_amount"
+    app_local_get
+    -
+    b main_l24
+    main_l26:
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    int 31536000
+    +
+    >
+    bnz main_l28
+    int 0
+    return
+    main_l28:
+    global GroupSize
+    int 2
+    ==
+    assert
+    gtxn 0 TypeEnum
+    int pay
+    ==
+    assert
+    gtxn 1 TypeEnum
+    int appl
+    ==
+    assert
+    byte "assetID"
+    app_global_get
+    gtxna 1 Assets 0
+    ==
+    assert
+    gtxna 1 ApplicationArgs 1
+    btoi
+    int 0
+    >
+    assert
+    gtxna 1 ApplicationArgs 1
+    btoi
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 24
+    >
+    bnz main_l31
+    txn Sender
+    byte "balance"
+    app_local_get
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 1
+    -
+    int 24
+    /
+    *
+    txn Sender
+    byte "withdraw_amount"
+    app_local_get
+    -
+    main_l30:
+    <=
+    assert
+    itxn_begin
+    int axfer
+    itxn_field TypeEnum
+    gtxn 1 Sender
+    itxn_field AssetReceiver
+    gtxna 1 ApplicationArgs 1
+    btoi
+    itxn_field AssetAmount
+    gtxna 1 Assets 0
+    itxn_field XferAsset
+    itxn_submit
+    gtxn 1 Sender
+    byte "withdraw_amount"
+    gtxn 1 Sender
+    byte "withdraw_amount"
+    app_local_get
+    gtxna 1 ApplicationArgs 1
+    btoi
+    +
+    app_local_put
+    gtxn 1 Sender
+    byte "balance"
+    gtxn 1 Sender
+    byte "balance"
+    app_local_get
+    gtxn 1 Sender
+    byte "withdraw"
+    app_local_get
+    -
+    app_local_put
+    int 1
+    return
+    main_l31:
+    txn Sender
+    byte "balance"
+    app_local_get
+    txn Sender
+    byte "withdraw_amount"
+    app_local_get
+    -
+    b main_l30
+    main_l32:
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    int 31536000
+    +
+    >
+    bnz main_l34
+    int 0
+    return
+    main_l34:
+    txn Sender
+    byte "advisors"
+    app_global_get
+    ==
+    txn Sender
+    byte "private_investors"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "company_reserve"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "team"
+    app_global_get
+    ==
+    ||
+    assert
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 12
+    >
+    bnz main_l36
+    int 0
+    return
+    main_l36:
+    global GroupSize
+    int 2
+    ==
+    assert
+    gtxn 0 TypeEnum
+    int pay
+    ==
+    assert
+    gtxn 1 TypeEnum
+    int appl
+    ==
+    assert
+    byte "assetID"
+    app_global_get
+    gtxna 1 Assets 0
+    ==
+    assert
+    gtxna 1 ApplicationArgs 1
+    btoi
+    int 0
+    >
+    assert
+    gtxna 1 ApplicationArgs 1
+    btoi
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 24
+    >
+    bnz main_l39
+    txn Sender
+    byte "balance"
+    app_local_get
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 1
+    -
+    int 24
+    /
+    *
+    txn Sender
+    byte "withdraw_amount"
+    app_local_get
+    -
+    main_l38:
+    <=
+    assert
+    itxn_begin
+    int axfer
+    itxn_field TypeEnum
+    gtxn 1 Sender
+    itxn_field AssetReceiver
+    gtxna 1 ApplicationArgs 1
+    btoi
+    itxn_field AssetAmount
+    gtxna 1 Assets 0
+    itxn_field XferAsset
+    itxn_submit
+    gtxn 1 Sender
+    byte "withdraw_amount"
+    gtxn 1 Sender
+    byte "withdraw_amount"
+    app_local_get
+    gtxna 1 ApplicationArgs 1
+    btoi
+    +
+    app_local_put
+    gtxn 1 Sender
+    byte "balance"
+    gtxn 1 Sender
+    byte "balance"
+    app_local_get
+    gtxn 1 Sender
+    byte "withdraw"
+    app_local_get
+    -
+    app_local_put
+    int 1
+    return
+    main_l39:
+    txn Sender
+    byte "balance"
+    app_local_get
+    txn Sender
+    byte "withdraw_amount"
+    app_local_get
+    -
+    b main_l38
+    main_l40:
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    int 31536000
+    +
+    >
+    bnz main_l42
+    int 0
+    return
+    main_l42:
+    txn Sender
+    byte "advisors"
+    app_global_get
+    ==
+    txn Sender
+    byte "private_investors"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "company_reserve"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "team"
+    app_global_get
+    ==
+    ||
+    assert
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 12
+    >
+    bnz main_l44
+    int 0
+    return
+    main_l44:
+    global GroupSize
+    int 2
+    ==
+    assert
+    gtxn 0 TypeEnum
+    int pay
+    ==
+    assert
+    gtxn 1 TypeEnum
+    int appl
+    ==
+    assert
+    byte "assetID"
+    app_global_get
+    gtxna 1 Assets 0
+    ==
+    assert
+    gtxna 1 ApplicationArgs 1
+    btoi
+    int 0
+    >
+    assert
+    gtxna 1 ApplicationArgs 1
+    btoi
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 24
+    >
+    bnz main_l47
+    txn Sender
+    byte "balance"
+    app_local_get
+    global LatestTimestamp
+    byte "get_time"
+    app_global_get
+    -
+    int 2592000
+    /
+    int 1
+    -
+    int 24
+    /
+    *
+    txn Sender
+    byte "withdraw_amount"
+    app_local_get
+    -
+    main_l46:
+    <=
+    assert
+    itxn_begin
+    int axfer
+    itxn_field TypeEnum
+    gtxn 1 Sender
+    itxn_field AssetReceiver
+    gtxna 1 ApplicationArgs 1
+    btoi
+    itxn_field AssetAmount
+    gtxna 1 Assets 0
+    itxn_field XferAsset
+    itxn_submit
+    gtxn 1 Sender
+    byte "withdraw_amount"
+    gtxn 1 Sender
+    byte "withdraw_amount"
+    app_local_get
+    gtxna 1 ApplicationArgs 1
+    btoi
+    +
+    app_local_put
+    gtxn 1 Sender
+    byte "balance"
+    gtxn 1 Sender
+    byte "balance"
+    app_local_get
+    gtxn 1 Sender
+    byte "withdraw"
+    app_local_get
+    -
+    app_local_put
+    int 1
+    return
+    main_l47:
+    txn Sender
+    byte "balance"
+    app_local_get
+    txn Sender
+    byte "withdraw_amount"
+    app_local_get
+    -
+    b main_l46
+    main_l48:
+    txn RekeyTo
+    global ZeroAddress
+    ==
+    txn CloseRemainderTo
+    global ZeroAddress
+    ==
+    &&
+    txn AssetCloseTo
+    global ZeroAddress
+    ==
+    &&
+    assert
+    txn Sender
+    byte "advisors"
+    app_global_get
+    ==
+    txn Sender
+    byte "private_investors"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "company_reserve"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "team"
+    app_global_get
+    ==
+    ||
+    assert
+    txn Sender
+    byte "balance"
+    txna ApplicationArgs 1
+    btoi
+    app_local_put
+    int 1
+    return
+    main_l49:
+    byte "get_time"
+    txna ApplicationArgs 1
+    btoi
+    app_global_put
+    int 1
+    return
+    main_l50:
+    txn RekeyTo
+    global ZeroAddress
+    ==
+    txn CloseRemainderTo
+    global ZeroAddress
+    ==
+    &&
+    txn AssetCloseTo
+    global ZeroAddress
+    ==
+    &&
+    assert
+    byte "assetID"
+    app_global_get
+    txna Assets 0
+    ==
+    assert
+    itxn_begin
+    int axfer
+    itxn_field TypeEnum
+    global CurrentApplicationAddress
+    itxn_field AssetReceiver
+    int 0
+    itxn_field AssetAmount
+    txna Assets 0
+    itxn_field XferAsset
+    itxn_submit
+    int 1
+    return
+    main_l51:
+    int 0
+    return
+    main_l52:
+    int 0
+    return
+    main_l53:
+    int 1
+    return
+    main_l54:
+    txn RekeyTo
+    global ZeroAddress
+    ==
+    txn CloseRemainderTo
+    global ZeroAddress
+    ==
+    &&
+    txn AssetCloseTo
+    global ZeroAddress
+    ==
+    &&
+    assert
+    txn Sender
+    txn ApplicationID
+    app_opted_in
+    assert
+    txn Sender
+    byte "advisors"
+    app_global_get
+    ==
+    txn Sender
+    byte "private_investors"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "company_reserve"
+    app_global_get
+    ==
+    ||
+    txn Sender
+    byte "team"
+    app_global_get
+    ==
+    ||
+    assert
+    txn Sender
+    byte "withdraw_amount"
+    int 0
+    app_local_put
+    int 1
+    return
+    main_l55:
+    txn RekeyTo
+    global ZeroAddress
+    ==
+    txn CloseRemainderTo
+    global ZeroAddress
+    ==
+    &&
+    txn AssetCloseTo
+    global ZeroAddress
+    ==
+    &&
+    assert
+    byte "advisors"
+    txna Accounts 1
+    app_global_put
+    byte "private_investors"
+    txna Accounts 2
+    app_global_put
+    byte "company_reserve"
+    txna Accounts 3
+    app_global_put
+    byte "team"
+    txna Accounts 4
+    app_global_put
+    byte "assetID"
+    txna ApplicationArgs 0
+    btoi
+    app_global_put
+    int 1
+    return
+scParams: {}

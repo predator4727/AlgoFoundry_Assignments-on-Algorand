@@ -1,0 +1,637 @@
+filename: mint_approval.py
+timestamp: 1678124329
+compiled: BiADAAEEJgEHdGVzbGFJRDEYIhJAAV8xGSMSQAFWMRmBAhJAAUwxGSQSQAFDMRmBBRJAATkxGSISQAABADEgMgMSMQkyAxIQMRUyAxIQRDYaAIALY3JlYXRlQXNzZXQSQADDNhoAgAh0cmFuc2ZlchJAAGA2GgCABGJ1cm4SQAABADEgMgMSMQkyAxIQMRUyAxIQRDEAMgkSRDYaARcyCihkcAA1ATUANAFENAAORDYaARciDUQoZDYwABJEsSSyEDYcAbIUNhoBF7ISNjAAshGzI0MxIDIDEjEJMgMSEDEVMgMSEEQxADIJEkQ2GgEXMgooZHAANQE1ADQBRDQADkQ2GgEXIg1EKGQ2MAASRLEkshA2HAGyFDYaAReyEjYwALIRsyNDMSAyAxIxCTIDEhAxFTIDEhBEMQAyCRJEKGQiEkSxgQOyEIHAhD2yIiKyI4AFVGVzbGGyJoAEVFNMQbIlsyi0PGcoZCINRCNDIkMiQyNDIkMxIDIDEjEJMgMSEDEVMgMSEEQoImcjQw==
+compiledHash: G6PJXZJV4HBHZQTRK4Z6MGQLCURGNFHJ3G4NT6XLLQS36MKINJJC2RZW64
+srcHash: 2560392381
+base64ToBytes:
+  - 6
+  - 32
+  - 3
+  - 0
+  - 1
+  - 4
+  - 38
+  - 1
+  - 7
+  - 116
+  - 101
+  - 115
+  - 108
+  - 97
+  - 73
+  - 68
+  - 49
+  - 24
+  - 34
+  - 18
+  - 64
+  - 1
+  - 95
+  - 49
+  - 25
+  - 35
+  - 18
+  - 64
+  - 1
+  - 86
+  - 49
+  - 25
+  - 129
+  - 2
+  - 18
+  - 64
+  - 1
+  - 76
+  - 49
+  - 25
+  - 36
+  - 18
+  - 64
+  - 1
+  - 67
+  - 49
+  - 25
+  - 129
+  - 5
+  - 18
+  - 64
+  - 1
+  - 57
+  - 49
+  - 25
+  - 34
+  - 18
+  - 64
+  - 0
+  - 1
+  - 0
+  - 49
+  - 32
+  - 50
+  - 3
+  - 18
+  - 49
+  - 9
+  - 50
+  - 3
+  - 18
+  - 16
+  - 49
+  - 21
+  - 50
+  - 3
+  - 18
+  - 16
+  - 68
+  - 54
+  - 26
+  - 0
+  - 128
+  - 11
+  - 99
+  - 114
+  - 101
+  - 97
+  - 116
+  - 101
+  - 65
+  - 115
+  - 115
+  - 101
+  - 116
+  - 18
+  - 64
+  - 0
+  - 195
+  - 54
+  - 26
+  - 0
+  - 128
+  - 8
+  - 116
+  - 114
+  - 97
+  - 110
+  - 115
+  - 102
+  - 101
+  - 114
+  - 18
+  - 64
+  - 0
+  - 96
+  - 54
+  - 26
+  - 0
+  - 128
+  - 4
+  - 98
+  - 117
+  - 114
+  - 110
+  - 18
+  - 64
+  - 0
+  - 1
+  - 0
+  - 49
+  - 32
+  - 50
+  - 3
+  - 18
+  - 49
+  - 9
+  - 50
+  - 3
+  - 18
+  - 16
+  - 49
+  - 21
+  - 50
+  - 3
+  - 18
+  - 16
+  - 68
+  - 49
+  - 0
+  - 50
+  - 9
+  - 18
+  - 68
+  - 54
+  - 26
+  - 1
+  - 23
+  - 50
+  - 10
+  - 40
+  - 100
+  - 112
+  - 0
+  - 53
+  - 1
+  - 53
+  - 0
+  - 52
+  - 1
+  - 68
+  - 52
+  - 0
+  - 14
+  - 68
+  - 54
+  - 26
+  - 1
+  - 23
+  - 34
+  - 13
+  - 68
+  - 40
+  - 100
+  - 54
+  - 48
+  - 0
+  - 18
+  - 68
+  - 177
+  - 36
+  - 178
+  - 16
+  - 54
+  - 28
+  - 1
+  - 178
+  - 20
+  - 54
+  - 26
+  - 1
+  - 23
+  - 178
+  - 18
+  - 54
+  - 48
+  - 0
+  - 178
+  - 17
+  - 179
+  - 35
+  - 67
+  - 49
+  - 32
+  - 50
+  - 3
+  - 18
+  - 49
+  - 9
+  - 50
+  - 3
+  - 18
+  - 16
+  - 49
+  - 21
+  - 50
+  - 3
+  - 18
+  - 16
+  - 68
+  - 49
+  - 0
+  - 50
+  - 9
+  - 18
+  - 68
+  - 54
+  - 26
+  - 1
+  - 23
+  - 50
+  - 10
+  - 40
+  - 100
+  - 112
+  - 0
+  - 53
+  - 1
+  - 53
+  - 0
+  - 52
+  - 1
+  - 68
+  - 52
+  - 0
+  - 14
+  - 68
+  - 54
+  - 26
+  - 1
+  - 23
+  - 34
+  - 13
+  - 68
+  - 40
+  - 100
+  - 54
+  - 48
+  - 0
+  - 18
+  - 68
+  - 177
+  - 36
+  - 178
+  - 16
+  - 54
+  - 28
+  - 1
+  - 178
+  - 20
+  - 54
+  - 26
+  - 1
+  - 23
+  - 178
+  - 18
+  - 54
+  - 48
+  - 0
+  - 178
+  - 17
+  - 179
+  - 35
+  - 67
+  - 49
+  - 32
+  - 50
+  - 3
+  - 18
+  - 49
+  - 9
+  - 50
+  - 3
+  - 18
+  - 16
+  - 49
+  - 21
+  - 50
+  - 3
+  - 18
+  - 16
+  - 68
+  - 49
+  - 0
+  - 50
+  - 9
+  - 18
+  - 68
+  - 40
+  - 100
+  - 34
+  - 18
+  - 68
+  - 177
+  - 129
+  - 3
+  - 178
+  - 16
+  - 129
+  - 192
+  - 132
+  - 61
+  - 178
+  - 34
+  - 34
+  - 178
+  - 35
+  - 128
+  - 5
+  - 84
+  - 101
+  - 115
+  - 108
+  - 97
+  - 178
+  - 38
+  - 128
+  - 4
+  - 84
+  - 83
+  - 76
+  - 65
+  - 178
+  - 37
+  - 179
+  - 40
+  - 180
+  - 60
+  - 103
+  - 40
+  - 100
+  - 34
+  - 13
+  - 68
+  - 35
+  - 67
+  - 34
+  - 67
+  - 34
+  - 67
+  - 35
+  - 67
+  - 34
+  - 67
+  - 49
+  - 32
+  - 50
+  - 3
+  - 18
+  - 49
+  - 9
+  - 50
+  - 3
+  - 18
+  - 16
+  - 49
+  - 21
+  - 50
+  - 3
+  - 18
+  - 16
+  - 68
+  - 40
+  - 34
+  - 103
+  - 35
+  - 67
+tealCode: |
+  #pragma version 6
+  txn ApplicationID
+  int 0
+  ==
+  bnz main_l18
+  txn OnCompletion
+  int OptIn
+  ==
+  bnz main_l17
+  txn OnCompletion
+  int CloseOut
+  ==
+  bnz main_l16
+  txn OnCompletion
+  int UpdateApplication
+  ==
+  bnz main_l15
+  txn OnCompletion
+  int DeleteApplication
+  ==
+  bnz main_l14
+  txn OnCompletion
+  int NoOp
+  ==
+  bnz main_l7
+  err
+  main_l7:
+  txn RekeyTo
+  global ZeroAddress
+  ==
+  txn CloseRemainderTo
+  global ZeroAddress
+  ==
+  &&
+  txn AssetCloseTo
+  global ZeroAddress
+  ==
+  &&
+  assert
+  txna ApplicationArgs 0
+  byte "createAsset"
+  ==
+  bnz main_l13
+  txna ApplicationArgs 0
+  byte "transfer"
+  ==
+  bnz main_l12
+  txna ApplicationArgs 0
+  byte "burn"
+  ==
+  bnz main_l11
+  err
+  main_l11:
+  txn RekeyTo
+  global ZeroAddress
+  ==
+  txn CloseRemainderTo
+  global ZeroAddress
+  ==
+  &&
+  txn AssetCloseTo
+  global ZeroAddress
+  ==
+  &&
+  assert
+  txn Sender
+  global CreatorAddress
+  ==
+  assert
+  txna ApplicationArgs 1
+  btoi
+  global CurrentApplicationAddress
+  byte "teslaID"
+  app_global_get
+  asset_holding_get AssetBalance
+  store 1
+  store 0
+  load 1
+  assert
+  load 0
+  <=
+  assert
+  txna ApplicationArgs 1
+  btoi
+  int 0
+  >
+  assert
+  byte "teslaID"
+  app_global_get
+  txna Assets 0
+  ==
+  assert
+  itxn_begin
+  int axfer
+  itxn_field TypeEnum
+  txna Accounts 1
+  itxn_field AssetReceiver
+  txna ApplicationArgs 1
+  btoi
+  itxn_field AssetAmount
+  txna Assets 0
+  itxn_field XferAsset
+  itxn_submit
+  int 1
+  return
+  main_l12:
+  txn RekeyTo
+  global ZeroAddress
+  ==
+  txn CloseRemainderTo
+  global ZeroAddress
+  ==
+  &&
+  txn AssetCloseTo
+  global ZeroAddress
+  ==
+  &&
+  assert
+  txn Sender
+  global CreatorAddress
+  ==
+  assert
+  txna ApplicationArgs 1
+  btoi
+  global CurrentApplicationAddress
+  byte "teslaID"
+  app_global_get
+  asset_holding_get AssetBalance
+  store 1
+  store 0
+  load 1
+  assert
+  load 0
+  <=
+  assert
+  txna ApplicationArgs 1
+  btoi
+  int 0
+  >
+  assert
+  byte "teslaID"
+  app_global_get
+  txna Assets 0
+  ==
+  assert
+  itxn_begin
+  int axfer
+  itxn_field TypeEnum
+  txna Accounts 1
+  itxn_field AssetReceiver
+  txna ApplicationArgs 1
+  btoi
+  itxn_field AssetAmount
+  txna Assets 0
+  itxn_field XferAsset
+  itxn_submit
+  int 1
+  return
+  main_l13:
+  txn RekeyTo
+  global ZeroAddress
+  ==
+  txn CloseRemainderTo
+  global ZeroAddress
+  ==
+  &&
+  txn AssetCloseTo
+  global ZeroAddress
+  ==
+  &&
+  assert
+  txn Sender
+  global CreatorAddress
+  ==
+  assert
+  byte "teslaID"
+  app_global_get
+  int 0
+  ==
+  assert
+  itxn_begin
+  int acfg
+  itxn_field TypeEnum
+  int 1000000
+  itxn_field ConfigAssetTotal
+  int 0
+  itxn_field ConfigAssetDecimals
+  byte "Tesla"
+  itxn_field ConfigAssetName
+  byte "TSLA"
+  itxn_field ConfigAssetUnitName
+  itxn_submit
+  byte "teslaID"
+  itxn CreatedAssetID
+  app_global_put
+  byte "teslaID"
+  app_global_get
+  int 0
+  >
+  assert
+  int 1
+  return
+  main_l14:
+  int 0
+  return
+  main_l15:
+  int 0
+  return
+  main_l16:
+  int 1
+  return
+  main_l17:
+  int 0
+  return
+  main_l18:
+  txn RekeyTo
+  global ZeroAddress
+  ==
+  txn CloseRemainderTo
+  global ZeroAddress
+  ==
+  &&
+  txn AssetCloseTo
+  global ZeroAddress
+  ==
+  &&
+  assert
+  byte "teslaID"
+  int 0
+  app_global_put
+  int 1
+  return
+scParams: {}
